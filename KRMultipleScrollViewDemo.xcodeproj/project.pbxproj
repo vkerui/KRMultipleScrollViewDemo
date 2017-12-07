@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		443E24211FD8E4810054E34E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 443E24201FD8E4810054E34E /* AppDelegate.m */; };
+		443E24241FD8E4810054E34E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443E24231FD8E4810054E34E /* ViewController.m */; };
+		443E24271FD8E4810054E34E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443E24251FD8E4810054E34E /* Main.storyboard */; };
+		443E24291FD8E4810054E34E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 443E24281FD8E4810054E34E /* Assets.xcassets */; };
+		443E242C1FD8E4810054E34E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443E242A1FD8E4810054E34E /* LaunchScreen.storyboard */; };
+		443E242F1FD8E4810054E34E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 443E242E1FD8E4810054E34E /* main.m */; };
+		443E24371FD8EA250054E34E /* KRTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 443E24361FD8EA250054E34E /* KRTableView.m */; };
+		443E243A1FD8EADF0054E34E /* KRSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443E24391FD8EADF0054E34E /* KRSubViewController.m */; };
+		443E243D1FD8EBCD0054E34E /* KRMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443E243C1FD8EBCD0054E34E /* KRMainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		443E241C1FD8E4810054E34E /* KRMultipleScrollViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRMultipleScrollViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		443E241F1FD8E4810054E34E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		443E24201FD8E4810054E34E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		443E24221FD8E4810054E34E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		443E24231FD8E4810054E34E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		443E24261FD8E4810054E34E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		443E24281FD8E4810054E34E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		443E242B1FD8E4810054E34E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		443E242D1FD8E4810054E34E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		443E242E1FD8E4810054E34E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		443E24351FD8EA250054E34E /* KRTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRTableView.h; sourceTree = "<group>"; };
+		443E24361FD8EA250054E34E /* KRTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRTableView.m; sourceTree = "<group>"; };
+		443E24381FD8EADF0054E34E /* KRSubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRSubViewController.h; sourceTree = "<group>"; };
+		443E24391FD8EADF0054E34E /* KRSubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRSubViewController.m; sourceTree = "<group>"; };
+		443E243B1FD8EBCD0054E34E /* KRMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRMainViewController.h; sourceTree = "<group>"; };
+		443E243C1FD8EBCD0054E34E /* KRMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRMainViewController.m; sourceTree = "<group>"; };
+		443E243E1FD8EC460054E34E /* KRSubScrollViewScrollDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRSubScrollViewScrollDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		443E24191FD8E4810054E34E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		443E24131FD8E4810054E34E = {
+			isa = PBXGroup;
+			children = (
+				443E241E1FD8E4810054E34E /* KRMultipleScrollViewDemo */,
+				443E241D1FD8E4810054E34E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		443E241D1FD8E4810054E34E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				443E241C1FD8E4810054E34E /* KRMultipleScrollViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		443E241E1FD8E4810054E34E /* KRMultipleScrollViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				443E241F1FD8E4810054E34E /* AppDelegate.h */,
+				443E24201FD8E4810054E34E /* AppDelegate.m */,
+				443E24221FD8E4810054E34E /* ViewController.h */,
+				443E24231FD8E4810054E34E /* ViewController.m */,
+				443E24351FD8EA250054E34E /* KRTableView.h */,
+				443E24361FD8EA250054E34E /* KRTableView.m */,
+				443E24251FD8E4810054E34E /* Main.storyboard */,
+				443E24281FD8E4810054E34E /* Assets.xcassets */,
+				443E242A1FD8E4810054E34E /* LaunchScreen.storyboard */,
+				443E242D1FD8E4810054E34E /* Info.plist */,
+				443E242E1FD8E4810054E34E /* main.m */,
+				443E24381FD8EADF0054E34E /* KRSubViewController.h */,
+				443E24391FD8EADF0054E34E /* KRSubViewController.m */,
+				443E243B1FD8EBCD0054E34E /* KRMainViewController.h */,
+				443E243C1FD8EBCD0054E34E /* KRMainViewController.m */,
+				443E243E1FD8EC460054E34E /* KRSubScrollViewScrollDelegate.h */,
+			);
+			path = KRMultipleScrollViewDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		443E241B1FD8E4810054E34E /* KRMultipleScrollViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 443E24321FD8E4810054E34E /* Build configuration list for PBXNativeTarget "KRMultipleScrollViewDemo" */;
+			buildPhases = (
+				443E24181FD8E4810054E34E /* Sources */,
+				443E24191FD8E4810054E34E /* Frameworks */,
+				443E241A1FD8E4810054E34E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRMultipleScrollViewDemo;
+			productName = KRMultipleScrollViewDemo;
+			productReference = 443E241C1FD8E4810054E34E /* KRMultipleScrollViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		443E24141FD8E4810054E34E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = kerui;
+				TargetAttributes = {
+					443E241B1FD8E4810054E34E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 443E24171FD8E4810054E34E /* Build configuration list for PBXProject "KRMultipleScrollViewDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 443E24131FD8E4810054E34E;
+			productRefGroup = 443E241D1FD8E4810054E34E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				443E241B1FD8E4810054E34E /* KRMultipleScrollViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		443E241A1FD8E4810054E34E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443E242C1FD8E4810054E34E /* LaunchScreen.storyboard in Resources */,
+				443E24291FD8E4810054E34E /* Assets.xcassets in Resources */,
+				443E24271FD8E4810054E34E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		443E24181FD8E4810054E34E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443E24371FD8EA250054E34E /* KRTableView.m in Sources */,
+				443E24241FD8E4810054E34E /* ViewController.m in Sources */,
+				443E243D1FD8EBCD0054E34E /* KRMainViewController.m in Sources */,
+				443E242F1FD8E4810054E34E /* main.m in Sources */,
+				443E243A1FD8EADF0054E34E /* KRSubViewController.m in Sources */,
+				443E24211FD8E4810054E34E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		443E24251FD8E4810054E34E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				443E24261FD8E4810054E34E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		443E242A1FD8E4810054E34E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				443E242B1FD8E4810054E34E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		443E24301FD8E4810054E34E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		443E24311FD8E4810054E34E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		443E24331FD8E4810054E34E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = UVT62Q266A;
+				INFOPLIST_FILE = KRMultipleScrollViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kerui.KRMultipleScrollViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c8b91a2c-9f24-431a-9d98-0e25a41ada7f";
+				PROVISIONING_PROFILE_SPECIFIER = zalQiyeCPEOC_20170630_develop;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		443E24341FD8E4810054E34E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = KRMultipleScrollViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kerui.KRMultipleScrollViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		443E24171FD8E4810054E34E /* Build configuration list for PBXProject "KRMultipleScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				443E24301FD8E4810054E34E /* Debug */,
+				443E24311FD8E4810054E34E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		443E24321FD8E4810054E34E /* Build configuration list for PBXNativeTarget "KRMultipleScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				443E24331FD8E4810054E34E /* Debug */,
+				443E24341FD8E4810054E34E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 443E24141FD8E4810054E34E /* Project object */;
+}
